@@ -1,0 +1,307 @@
+/* ---------- FILTER BAR ---------- */
+.booking-filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto 24px;   /* อยู่กลางจอ ใต้หัวข้อ */
+}
+
+.booking-input {
+  width: 320px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  font-size: 14px;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.booking-input::placeholder {
+  color: #a0a0a0;
+}
+
+.booking-select {
+  min-width: 170px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  font-size: 14px;
+  background: #1f1f1f;
+  color: #fff;
+  appearance: none;
+}
+
+.btn-search {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  background: #2f74ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ---------- TABLE ---------- */
+.booking-table-wrapper {
+  max-width: 900px;      /* ตารางแคบลง */
+  margin: 0 auto;        /* ให้อยู่กลางจอ */
+}
+
+.booking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: #1f1f1f;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.booking-table thead {
+  background: #3b3b3b;
+}
+
+.booking-table th,
+.booking-table td {
+  padding: 12px 16px;
+}
+
+.booking-table th {
+  font-weight: 600;
+  color: #e0e0e0;
+  text-align: left;
+}
+
+.booking-table td {
+  color: #f5f5f5;
+  text-align: left;
+}
+
+.booking-table tbody tr {
+  border-top: 1px solid #333;
+}
+
+.booking-table tbody tr:nth-child(even) {
+  background: #191919;
+}
+
+.booking-actions-header {
+  text-align: right;
+}
+
+.booking-actions-cell {
+  text-align: right;
+}
+
+/* ---------- STATUS BADGE ---------- */
+.status-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: #ffeb3b;
+  color: #000;
+}
+
+.status-badge.approved {
+  background: #66bb6a;
+  color: #000;
+}
+
+.status-badge.rejected {
+  background: #f44336;
+  color: #fff;
+}
+
+.status-badge.contract {
+  background: #00BFFF; /* สีฟ้า */
+  color: #000;
+}
+
+/* ---------- TABLE ACTION BUTTONS ---------- */
+.btn-table {
+  border-radius: 999px;
+  padding: 6px 12px;
+  margin-left: 6px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-table.default {
+  background: #eeeeee;
+  color: #000;
+}
+
+.btn-table.success {
+  background: #00c853;
+  color: #fff;
+}
+
+.btn-table.danger {
+  background: #ff5252;
+  color: #fff;
+}
+
+.btn-table:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* ---------- MODAL ---------- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.modal-card {
+  width: 520px;
+  max-width: 90%;
+  background: #262626;
+  border-radius: 14px;
+  padding: 20px 24px 18px;
+  color: #fff;
+}
+
+.modal-header {
+  margin-bottom: 12px;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal-body {
+  margin-bottom: 18px;
+}
+
+.modal-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.modal-row label {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.modal-input,
+.modal-textarea {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.modal-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.modal-footer.center {
+  justify-content: center;
+}
+
+/* buttons in modal */
+.btn-simple,
+.btn-primary,
+.btn-danger {
+  border-radius: 999px;
+  padding: 6px 14px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-simple {
+  background: #424242;
+  color: #fff;
+}
+
+.btn-primary {
+  background: #00c853;
+  color: #fff;
+}
+
+.btn-danger {
+  background: #ff5252;
+  color: #fff;
+}
+
+.modal-divider {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 16px 0;
+}
+
+/* กลุ่มข้อมูลแถวบน (จัดเป็น Grid เล็กๆ ถ้าต้องการ) */
+.modal-row-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* แบ่ง 2 คอลัมน์ */
+  gap: 12px;
+}
+.modal-row-group .modal-row:last-child {
+  grid-column: span 2; /* วันที่เข้าพักให้ยาวเต็ม */
+}
+
+/* ปุ่ม Tabs เลือกคน */
+.modal-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #333;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px; /* ให้เส้นทับเส้นขอบล่าง */
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  color: #ddd;
+}
+
+.tab-btn.active {
+  color: #ffd54a; /* สีเหลืองตามธีม */
+  border-bottom: 2px solid #ffd54a;
+}
+
+.modal-person-info {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,54 @@
+.navbar-wrapper {
+  width: 100%;
+}
+
+/* แถบสีขาวด้านบน */
+.navbar-top {
+  background: #ffffff;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* layout: โลโก้ (ซ้าย) | เมนู+ปุ่ม (ขวา) */
+.navbar-inner {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+}
+
+/* โลโก้ */
+.navbar-logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* เมนูกลาง—แต่เราอยากให้ไปอยู่ขวา */
+.navbar-menu {
+  display: flex;
+  gap: 40px;           /* ระยะห่างเมนู */
+  align-items: center;
+  margin-left: auto;   /* ดันเมนูไปขวาทั้งกล่อง */
+  margin-right: 24px;  /* ระยะห่างกับปุ่มออกจากระบบ */
+}
+
+/* ลิงก์เมนู */
+.nav-link {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+}
+
+/* ปุ่มขวาสุด */
+.navbar-actions {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,86 @@
+/* พื้นหลังหน้า Login / Register */
+.auth-wrapper {
+  min-height: calc(100vh - 56px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    var(--bg-light-blue)95%,
+    var(--bottom-blue) 100%);
+}
+
+.auth-inner {
+  width: 100%;
+  max-width: 480px;
+  padding: 40px 16px 60px;
+}
+
+/* กล่องฟอร์มกลาง */
+.auth-card {
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: var(--shadow-soft);
+  padding: 32px 32px 28px;
+  text-align: center;
+}
+
+/* หัวข้อสีส้ม */
+.auth-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: var(--primary);
+}
+
+.auth-subtitle {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+/* ฟอร์ม */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.auth-label {
+  font-size: 13px;
+  color: var(--text-main);
+}
+
+.auth-input {
+  margin-top: 4px;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 1px rgba(47, 113, 255, 0.2);
+}
+
+/* ปุ่มน้ำเงินในฟอร์ม */
+.auth-submit {
+  margin-top: 16px;
+  width: 100%;
+  background: var(--accent-blue);
+}
+
+.auth-footer-text {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #555;
+}
+
+.auth-footer-text a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}

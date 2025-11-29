@@ -1,0 +1,56 @@
+.info-card {
+  background: var(--card-bg);
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-soft);
+  padding: 18px 20px;
+  text-align: center;
+  min-width: 180px;
+}
+
+.info-card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.info-card-subtitle {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.info-card-highlight {
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent-blue);
+}
+
+/* SectionCard */
+
+.section-card {
+  background: var(--card-bg);
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-soft);
+  padding: 22px 24px;
+}
+
+.section-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.section-card-content {
+  font-size: 14px;
+  color: var(--text-main);
+}
+
+.section-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-list li {
+  margin-bottom: 4px;
+}

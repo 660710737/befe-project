@@ -1,0 +1,14 @@
+/* src/admin/styles/BookingPage.css */
+
+.admin-booking-page {
+  background: #141414;
+  min-height: 100vh;
+  padding: 40px 60px;
+}
+
+.booking-page-title {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}

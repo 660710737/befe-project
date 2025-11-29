@@ -1,0 +1,39 @@
+.admin-members-page {
+  background: #141414;
+  min-height: 100vh;
+  padding: 40px 60px;
+}
+
+.members-page-title {
+  margin: 0 0 24px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.member-delete-btn {
+  background-color: #ff3b30; /* แดงสดแบบเดิม */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+
+  transition: background-color 0.15s ease, transform 0.1s ease,
+    box-shadow 0.1s ease;
+}
+
+.member-delete-btn:hover {
+  background-color: #ff4b3a;   /* แดงสว่างขึ้นนิดหน่อยเวลา hover */
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.member-delete-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}

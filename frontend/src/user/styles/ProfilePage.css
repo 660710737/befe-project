@@ -1,0 +1,188 @@
+.profile-wrapper {
+  background: #e8f3ff;
+  min-height: 100vh;
+  padding: 40px 16px;
+}
+
+/* การ์ดโปรไฟล์ */
+.profile-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  border-left: 12px solid #ffa83b;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.profile-phone,
+.profile-email {
+  font-size: 18px;
+  color: #444;
+}
+
+/* หัวข้อประวัติ */
+.history-section {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.history-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* การ์ดประวัติ */
+.history-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.history-link {
+  color: #2a6bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ตาราง */
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.history-table th {
+  background: #e6f0ff;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.history-table td {
+  padding: 14px;
+  font-size: 17px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+/* สถานะ */
+.history-status p {
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.status-orange {
+  color: #ff7b00;
+  font-weight: 700;
+}
+.profile-wrapper {
+  background: #e8f3ff;
+  min-height: 100vh;
+  padding: 40px 16px;
+}
+
+/* การ์ดโปรไฟล์ */
+.profile-card {
+  background: #fff;
+  padding: 32px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  border-left: 12px solid #ffa83b;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.profile-phone,
+.profile-email {
+  font-size: 18px;
+  color: #444;
+}
+
+/* ส่วนประวัติ */
+.history-section {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.history-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* การ์ดครอบ */
+.history-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+/* header */
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.history-link {
+  color: #2a6bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ตาราง */
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.history-table th {
+  background: #dce9ff;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.history-table td {
+  padding: 14px;
+  font-size: 17px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+/* สถานะ */
+.status-orange {
+  color: #ff7b00 !important;
+  font-weight: 700;
+}
+
+.history-status p {
+  margin: 6px 0;
+  font-size: 16px;
+}

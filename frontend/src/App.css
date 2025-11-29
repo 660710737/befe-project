@@ -1,0 +1,94 @@
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-chubby/css/uicons-regular-chubby.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+:root {
+  --primary: #fbb03b;         /* ส้มแถบบน */
+  --primary-dark: #f7941d;
+  --accent-blue: #3664ff;     /* น้ำเงินปุ่มหลัก */
+  --bg-light-blue: #e2f0ff;
+  --bottom-blue: #3664ff;
+  --text-main: #222222;
+  --text-muted: #777777;
+  --card-bg: #ffffff;
+  --card-radius: 18px;
+  --shadow-soft: 0 16px 48px rgba(0, 0, 0, 0.12);
+  --transition-fast: 0.2s ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+body {
+  background: #f3f5ff;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* ปุ่มหลัก */
+
+.btn-primary {
+  background: var(--accent-blue);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background: #254ad6;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: var(--primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.btn-outline:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+/* เวอร์ชันใช้ใน navbar home (ปุ่มขาวบนแถบส้ม) */
+.btn-outline--white {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-primary--white {
+  background: #ffffff;
+  color: var(--primary-dark);
+}
+
+/* ปุ่มส้ม: ใช้บนหน้า Login */
+.btn-primary--orange {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+/* layout ทั่วไป */
+.page-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}

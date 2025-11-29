@@ -1,0 +1,98 @@
+/* ---------- FILTER BAR ---------- */
+.member-filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 900px;
+  margin: 0 auto 24px;
+}
+
+.member-search-input {
+  width: 260px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #555;
+  font-size: 14px;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+.member-search-input::placeholder {
+  color: #a0a0a0;
+}
+
+.member-search-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  background: #2f74ff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ---------- TABLE ---------- */
+.member-table-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.member-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: #1f1f1f;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.member-table thead {
+  background: #3b3b3b;
+}
+
+.member-table th,
+.member-table td {
+  padding: 12px 16px;
+}
+
+.member-table th {
+  font-weight: 600;
+  color: #e0e0e0;
+  text-align: left;
+}
+
+.member-table td {
+  color: #f5f5f5;
+  text-align: left;
+}
+
+.member-table tbody tr {
+  border-top: 1px solid #333;
+}
+
+.member-table tbody tr:nth-child(even) {
+  background: #191919;
+}
+
+.member-actions-header {
+  text-align: right;
+}
+
+.member-actions-cell {
+  text-align: right;
+}
+
+/* ปุ่มลบ */
+.btn-member-delete {
+  border-radius: 6px;
+  padding: 6px 14px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  background: #ff3b30;
+  color: #ffffff;
+}
